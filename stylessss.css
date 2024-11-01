@@ -1,0 +1,19 @@
+body {
+  background-color: rgb(2, 2, 36);
+}
+
+.hero--section {
+  max-width: 58em;
+  margin-inline: auto;
+  gap: 3rem;
+}
+
+@media screen and (min-width: 768px) {
+  .hero--section {
+    gap: 10rem;
+  }
+}
+
+#earth--image {
+  max-width: 300px;
+}
